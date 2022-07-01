@@ -6,7 +6,24 @@ div{
     background-color:#889db4;
     text-align: center;
 }
+@media(min-width:576px){
+    #foto_perfil{
+        position: absolute;
+        width: 15%; 
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px grey;
+        left: 2%;
 
+    }
+}
+@media(max-width:575px){
+    #foto_perfil{
+        width: 65%; 
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px grey;
+
+    }
+}
 #nombre {
     font-weight: bold;
     margin-top: 30%;
