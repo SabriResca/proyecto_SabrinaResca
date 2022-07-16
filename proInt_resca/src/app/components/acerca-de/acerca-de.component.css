@@ -1,11 +1,7 @@
- .row{
-   padding: 20px;
-   width: 100.9%;
-}
-
 div{
     background-color:#889db4;
     text-align: center;
+    padding: 20px;
 }
 @media(min-width:576px){
     #foto_perfil{
@@ -22,10 +18,12 @@ div{
         width: 65%; 
         border-radius: 50%;
         box-shadow: 3px 3px 3px grey;
+        margin-top:4%;
 
     }
 }
 #nombre {
     font-weight: bold;
     margin-top: 30%;
+    
 }
