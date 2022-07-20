@@ -6,8 +6,8 @@ div{
 @media(min-width:576px){
     #foto_perfil{
         position: absolute;
-        width: 15%; 
-        border-radius: 50%;
+        width: 17%; 
+        border-radius: 60%;
         box-shadow: 3px 3px 3px grey;
         left: 2%;
 
@@ -15,8 +15,8 @@ div{
 }
 @media(max-width:575px){
     #foto_perfil{
-        width: 65%; 
-        border-radius: 50%;
+        width: 75%; 
+        border-radius: 60%;
         box-shadow: 3px 3px 3px grey;
         margin-top:4%;
 
